@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title> VIDEO Y AUDIO </title>
+</head>
+
+<body>
+    <header>
+        <h1> Example of a web page with audio and video </h1>
+    </header>
+
+    <nav>
+        <h3>Content</h3>
+        <ul>
+            <li> <a href="#video">Video clip</a> </li>
+            <li> <a href="#audios">Audio clips</a> </li>
+        </ul>
+    </nav>
+
+    <section>
+        <h3>Video</h3>
+        <article id="video">
+            <!-- The <code> tag allows to display computer code (plan text or ASCII art) -->
+            <video src="Tokyo Ghoul Op vid-Unravel.mp4" controls> 
+                Your browser does not support the <code>video</code>  element 
+            </video>
+        </article>
+
+        <!-- It can be set the start and/or end of both video and audio elements by using the .ext#t= -->
+        <!-- .ext#t=5, 25 - Starts at second 5 and ends at second 25 -->
+        <!-- .ext#t=, 39 - Starts at the beginning and ends at second 39 -->
+        <!-- .ext#t=01:15 - Starts at minute 1:15 and plays from there -->
+        <article id="audios">
+            <h3>Audio</h3>
+            <audio src="Tokyo Ghoul Op aud-Unravel.mp3" controls> Tokyo Ghoul opening theme </audio> <br>
+            <audio controls> 
+                <source src="Tokyo Ghoul Op aud-Unravel.mp3#t=01:00" type="audio/mpeg">
+                Tokyo Ghoul op but this starts at the best part
+            </audio>
+        </article>
+    </section>
+    <!-- The <source> element allows to use different sources for a <video>, <audio> or <picture> element.
+         The browser will choose the first element that fits best to the required needs.
+         The "srcset" attribute is only used for images, for audio an video use the "src" attribute -->
+</body>
+
+</html>
