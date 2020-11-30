@@ -1,0 +1,408 @@
+html {
+    font-size: 1rem;
+}
+
+body {
+    overflow-x: hidden;
+}
+
+
+/* Estilo para la barra principal de navegación */
+
+header {
+    background: url("../img/ESCALADA\ L\ \ B&N.jpg") no-repeat;
+    background-size: 100% 100%;
+}
+
+header::after {
+    content: "";
+    background-image: linear-gradient(to right, #9925cb, #9925cb);
+    position: absolute;
+    display: block;
+    width: 100%;
+    height: 100%;
+    opacity: 0.9;
+    mix-blend-mode: multiply;
+    top: 0;
+    left: 0;
+    z-index: 0;
+}
+
+header {
+    position: relative;
+}
+
+header>* {
+    z-index: 10;
+    position: relative;
+}
+
+@media screen and (max-width:767px) {
+    header {
+        background: url("../img/RAPEL\ P\ \ B&N-Copy.jpg") no-repeat;
+        background-size: 100% 100%;
+    }
+}
+
+header>nav#navBar>div#navBarContent a {
+    letter-spacing: 0.05vw;
+    font-family: Verdana, Tahoma, sans-serif;
+    font-size: calc(0.4vw + 0.5rem);
+    font-weight: bold;
+    color: #FFFFFF;
+}
+
+header>nav#navBar>div#navBarContent a:hover {
+    color: #dddde6;
+    border: 1px #c9c2c2 solid;
+    border-radius: 5%;
+}
+
+header>nav#navBar>div#navBarContent a:active {
+    border: 2px #c9c2c2 solid;
+}
+
+header>nav#navBar>div#navBarContent button {
+    letter-spacing: 0.05vw;
+    font-family: Verdana, Tahoma, sans-serif;
+    font-size: calc(0.4vw + 0.5rem);
+    font-weight: bold;
+    border-radius: 0;
+}
+
+header>nav#navBar>div#navBarContent button#btnDonar {
+    background-color: #b3ffcf;
+    color: #166364;
+}
+
+header>nav#navBar>div#navBarContent button#btnES {
+    border: 2px solid #b3ffcf;
+    color: #b3ffcf;
+}
+
+header>nav#navBar>div#navBarContent button#btnES:hover,
+header>nav#navBar>div#navBarContent button#btnDonar:hover {
+    background-color: #a1a09f;
+    border: 1px #c9c2c2 solid;
+}
+
+header>nav#navBar>div#navBarContent button#btnES:active,
+header>nav#navBar>div#navBarContent button#btnDonar:active {
+    border: 2px #c9c2c2 solid;
+}
+
+
+/* Estilo para el título */
+
+header>div#headerTitle {
+    padding: 8% 0% 15% 0%;
+    align-items: center;
+    font-family: Verdana, Tahoma, sans-serif;
+}
+
+header>div#headerTitle .headerTitleText {
+    color: #FFFFFF;
+    font-size: calc(2.5vw + 1rem);
+    letter-spacing: 0.5vw;
+    font-weight: bold;
+}
+
+
+/* Estilo para la información del parque y la tarjeta */
+
+div#headerInfo {
+    position: relative;
+    bottom: 5vw;
+}
+
+div#headerInfo p#headerInfoText {
+    color: #052a2a;
+    font-family: Verdana, Tahoma, sans-serif;
+    font-size: calc(0.5vw + 0.5rem);
+    text-shadow: 1px 1px #DDDDDD;
+}
+
+div#headerInfo p#headerInfoCard {
+    color: #329898;
+    font-family: Verdana, Tahoma, sans-serif;
+    font-size: calc(0.8vw + 0.5rem);
+    font-weight: bold;
+    background-color: #b3ffcf;
+    line-height: 1;
+    margin: 0;
+}
+
+
+/* Estilo para la tarjeta de información de horarios, costos, ...*/
+
+header div#headerInfo2 {
+    background-color: #b3ffcf;
+}
+
+header div#headerInfo2 ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+header div#headerInfo2 ul>li {
+    font-size: calc(1vw + 0.5rem);
+    font-family: Verdana, Tahoma, sans-serif;
+    margin: 3% auto;
+    color: #052a2a;
+}
+
+header div#headerInfo2 ul>li:first-child {
+    font-size: calc(1vw + 0.6rem);
+    color: #329898;
+    font-weight: bold;
+    margin-top: 10%;
+}
+
+
+/* Estilo para los elementos principales de <main> */
+
+main>section {
+    margin: 5% 0;
+}
+
+main>section h2 {
+    color: #339898;
+    font-family: Verdana, Tahoma, sans-serif;
+    font-size: calc(0.8vw + 1rem);
+    font-weight: bold;
+}
+
+main>section ul>li {
+    margin: 3% 0%;
+    color: #052a2a;
+    font-size: calc(0.5vw + 0.5rem);
+    font-family: Verdana, Tahoma, sans-serif;
+    text-shadow: 1px 1px #DDDDDD;
+}
+
+
+/* Estilo para la sección: Recomendaciones */
+
+main>section#sectionRecomendaciones {
+    background-color: #329898;
+    color: #FFFFFF;
+}
+
+main>section#sectionRecomendaciones>div.row {
+    padding: 1% 6% 0% 6%;
+}
+
+main>section#sectionRecomendaciones>div.row>div.card-recomend {
+    padding: 0;
+    margin-bottom: 1.5%;
+}
+
+main>section#sectionRecomendaciones>div.row>div.card-recomend>div.card-content {
+    background-color: rgba(255, 255, 255, 0.08);
+    font-size: calc(0.5vw + 0.5rem);
+    padding: 10%;
+    margin: 0% 2%;
+    height: 100%;
+}
+
+main>section#sectionRecomendaciones p {
+    font-family: Verdana, Tahoma, sans-serif;
+    color: rgba(255, 255, 255, 0.8);
+    margin: 0;
+}
+
+
+/* Estilo para la sección: Precauciones y riesgos */
+
+main>section#sectionPrecauciones {
+    margin-right: 5%;
+    margin-left: 8%;
+}
+
+
+/* Estilo para la sección: Rutas */
+
+main>section#sectionRutas>div.row {
+    margin: auto 0%;
+    font-family: Verdana, Tahoma, sans-serif;
+}
+
+main>section#sectionRutas>div.row div#encabezadoRutas {
+    background-color: #b3ffcf;
+    border: none;
+    color: #339898;
+    font-weight: bold;
+    font-size: calc(0.7vw + 0.5rem);
+    padding-left: 10%;
+}
+
+main>section#sectionRutas>div.row div#encabezadoRutas button {
+    border: 1px #339898 solid;
+    border-radius: 0;
+    padding: 2%;
+}
+
+main>section#sectionRutas>div.row div#encabezadoRutas button>p span:first-child {
+    font-size: calc(2vw + 0.5rem);
+}
+
+main>section#sectionRutas>div.row div.lista-rutas>span,
+p#listaRutasInfo {
+    border: none;
+    color: #339898;
+    font-size: calc(0.5vw + 0.5rem);
+    padding-left: 10%;
+    cursor: pointer;
+}
+
+main>section#sectionRutas>div.row>div#encabezadoRutas>a {
+    font-size: calc(0.8vw + 0.7rem);
+    text-decoration: none;
+    letter-spacing: 0.3vw;
+    font-weight: normal;
+    color: #339898;
+    cursor: pointer;
+}
+
+main>section#sectionRutas>div.row>div#encabezadoRutas>a:hover {
+    color: #0a5092;
+}
+
+
+/* Estilo para la tarjeta de los Aguiluchos */
+
+main>section#sectionRutas>div.row div#headerAguiluchos {
+    border: none;
+    padding: 4% 6% 2% 6%;
+}
+
+main>section#sectionRutas>div.row div#headerAguiluchos>p#tituloAguiluchos {
+    color: #329898;
+    font-size: 1.25rem;
+    font-weight: bold;
+    margin-bottom: 2%;
+}
+
+main>section#sectionRutas>div.row div#headerAguiluchos>p#texTituloAguiluchos {
+    color: #808080;
+    font-size: 0.875rem;
+}
+
+main>section#sectionRutas>div.row div#headerAguiluchos>p#texTituloAguiluchos::after {
+    content: "Dificultad: Media";
+    margin-left: 20%;
+    color: #808080;
+    font-size: 0.875rem;
+}
+
+main>section#sectionRutas>div.row div#textoAguiluchos {
+    color: #052a2a;
+    font-size: 0.875rem;
+    padding: 0% 6%;
+}
+
+main>section#sectionRutas>div.row div#footerAguiluchos {
+    border: none;
+    text-align: right;
+    padding: 0% 10% 0% 10%;
+}
+
+main>section#sectionRutas>div.row div#footerAguiluchos a {
+    text-decoration: none;
+    color: #339898;
+    font-size: 1rem;
+    letter-spacing: 0.2vw;
+}
+
+
+/* Estilo para la sección: Tu experiencia en el parque */
+
+main>section#sectionTuExperiencia>form>button {
+    color: #adbcbd;
+    font-weight: bold;
+    border: none;
+    border-radius: 0;
+    background-color: #f2f6f6;
+    font-family: Verdana, Tahoma, sans-serif;
+    font-size: 1rem;
+    letter-spacing: 0.1vw;
+    padding: 2% 4%;
+}
+
+main>section#sectionTuExperiencia div.comentario>p:first-child {
+    margin-bottom: 2%;
+}
+
+main>section#sectionTuExperiencia div.comentario span.nombre-comentario {
+    color: #052a2a;
+    font-weight: bold;
+}
+
+main>section#sectionTuExperiencia div.comentario span.fecha-comentario {
+    color: #808080;
+}
+
+main>section#sectionTuExperiencia div.comentario span.fecha-comentario {
+    color: #052a2a;
+}
+
+
+/* Estilo para la sección: Otras actividades */
+
+section#sectionOtrasActiv div.card {
+    border: none;
+    margin: 0% 0%;
+    padding: 2% 1% 0% 1%;
+}
+
+section#sectionOtrasActiv div.card>div.card-img-overlay {
+    padding: 15% 10%;
+    text-align: center;
+}
+
+section#sectionOtrasActiv div.card span.card-title {
+    font-weight: bold;
+    color: #FFFFFF;
+    font-family: Verdana, Tahoma, sans-serif;
+    font-size: calc(0.2vw + 0.9rem);
+    display: block;
+    letter-spacing: 0.1vw;
+    margin: 15% 5% 20% 5%;
+}
+
+
+/* Estilo para el pie de la página */
+
+footer#footerHome {
+    background-color: #329898;
+    padding: 3% 0% 1% 0%;
+}
+
+footer#footerHome>div.row {
+    margin: 0;
+    padding: 0;
+}
+
+footer#footerHome ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+footer#footerHome ul>li {
+    color: rgba(255, 255, 255, 0.7);
+    letter-spacing: 0.1vw;
+    margin: 5% auto;
+    font-size: calc(0.6vw + 0.5rem);
+}
+
+footer#footerHome ul>li:first-child {
+    color: rgba(179, 255, 207, 0.8);
+    margin-bottom: 15%;
+    font-weight: bold;
+}
+
+footer#footerHome div.row span {
+    display: inline-block;
+    color: rgba(255, 255, 255, 0.7);
+    margin: 3% 2%;
+}

@@ -1,0 +1,385 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.5.3/dist/css/bootstrap.min.css" integrity="sha384-TX8t27EcRE3e/ihU7zmQxVncDAy5uIKz4rEkgIXeMed4M0jlfIDPvg6uqKI2xXr2" crossorigin="anonymous">
+    <!-- Font Awesome -->
+    <link rel="stylesheet" href="css/fontawesome/css/all.min.css">
+    <link rel="stylesheet" href="css/styleEscalada.css">
+    <title>Document</title>
+</head>
+
+<body>
+    <!-- Option 1: jQuery and Bootstrap Bundle (includes Popper) -->
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.5.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-ho+j7jyWK8fNQe+A12Hb8AhRq26LrZ/JpcUGGOn+Y7RsweNrtN/tE3MoK7ZeZDyx" crossorigin="anonymous"></script>
+
+    <header>
+        <nav class="navbar navbar-expand-md navbar-dark bg-transparent px-md-1" id="navBar">
+            <img class="px-md-0 px-lg-4 py-2" src="img/logo-huasteca/logo-white.png" alt="Logo de Huasteca Parque Ecológico">
+            <button class="navbar-toggler text-white align-self-start" type="button" data-toggle="collapse" data-target="#navBarContent" aria-controls="navBarContent" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="fal fa-bars fa-2x" id="menuIcon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navBarContent">
+                <ul class="navbar-nav mr-auto ml-auto">
+                    <li class="nav-item mr-lg-2 mr-xl-5 ml-0">
+                        <a class="nav-link px-1" href="#"> EL&nbsp;PARQUE</a>
+                    </li>
+                    <li class="nav-item mr-lg-2 mr-xl-5 ml-xl-3">
+                        <a class="nav-link px-1" href="#">¿QUÉ&nbsp;HACER?</a>
+                    </li>
+                    <li class="nav-item mr-lg-2 mr-xl-5 ml-xl-3">
+                        <a class="nav-link px-1" href="#">VISÍTANOS</a>
+                    </li>
+                    <li class="nav-item mr-0 ml-xl-3">
+                        <a class="nav-link px-1" href="#">CONTACTO</a>
+                    </li>
+                </ul>
+                <form class="form-inline mx-0">
+                    <button class="btn mr-md-1 mr-lg-3 px-1 px-lg-3" id="btnDonar">DONA&nbsp;AL&nbsp;PARQUE</button>
+                    <button class="btn mr-md-0 mr-lg-3 px-1 px-lg-2" id="btnES">
+                        <span class="far fa-globe fa-lg font-weight-light"></span> ES <span class="fas fa-caret-down"></span>
+                    </button>
+                </form>
+            </div>
+        </nav>
+
+        <div class="container-fluid d-flex flex-row justify-content-center" id="headerTitle">
+            <span class="far fa-mountains fa-3x px-4 headerTitleText font-weight-normal"></span>
+            <h1 class="headerTitleText">ESCALADA</h1>
+        </div>
+    </header>
+
+    <div class="container-fluid px-0" id="headerInfo">
+        <div class="d-flex flex-row  col-12 col-md-4 float-md-right mx-0 mr-md-5 px-0 pr-md-5">
+            <p class="px-5 py-2 py-md-4" id="headerInfoCard">
+                <span class="px-4 float-right fal fa-backpack fa-4x"></span>
+                <span class="px-0">Por favor, antes de irte del Parque Huasteca recuerda llevarte tu basura en tu mochila o bolsa.</span>
+            </p>
+        </div>
+        <div class="d-flex flex-row col-12 col-md-8 mx-2 mx-md-5 px-2 px-md-5">
+            <p class="mt-2 mb-0" id="headerInfoText">El Parque Ecológico La Huasteca se caracteriza por las paredes rocosas que se levantan a setecientos metros del piso y por la Primer Vía Ferrata de México, la cual es un recorrido donde se escalan trescientos metros por ruta utilizando rapel,
+                tirolesa o puentes colgantes.</p>
+        </div>
+    </div>
+
+    <main>
+        <section class="container-fluid col-12 col-md-8 mt-2" id="sectionActividades">
+            <h2>Actividades</h2>
+            <ul>
+                <li>Un grupo de regiomontanos ha puesto manos a la obra y crearon el primer patronato con la finalidad de desarrollar y fomentar la conservación de la naturaleza que habita en La Huasteca</li>
+                <li>Un grupo de regiomontanos ha puesto manos a la obra y crearon el primer patronato con la finalidad de desarrollar y fomentar la conservación de la naturaleza que habita en La Huasteca</li>
+                <li>Un grupo de regiomontanos ha puesto manos a la obra y crearon el primer patronato con la finalidad de desarrollar y fomentar la conservación de la naturaleza que habita en La Huasteca</li>
+            </ul>
+        </section>
+
+        <section class="container-fluid px-2 px-md-5 py-4" id="sectionRecomendaciones">
+            <h2 class="mt-2 mb-4 col-4 text-center text-white">Recomendaciones</h2>
+            <div class="row text-center justify-content-center">
+                <div class="col-6 col-sm-4 col-lg-2 card-recomend">
+                    <div class="card-content">
+                        <span class="mb-3 fas fa-sun fa-2x"></span>
+                        <p>Lleva contigo todo el tiempo tu bloqueador solar</p>
+                    </div>
+                </div>
+                <div class="col-6 col-sm-4 col-lg-2 card-recomend">
+                    <div class="card-content">
+                        <span class="mb-3 fas fa-tshirt fa-2x"></span>
+                        <p>Vestimenta de ropa fresca</p>
+                    </div>
+                </div>
+                <div class="col-6 col-sm-4 col-lg-2 card-recomend">
+                    <div class="card-content">
+                        <span class="mb-3 fas fa-exclamation-triangle fa-2x"></span>
+                        <p>Conoce el reglamento interno</p>
+                    </div>
+                </div>
+                <div class="col-6 col-sm-4 col-lg-2 card-recomend">
+                    <div class="card-content">
+                        <span class="mb-3 fas fa-sun fa-2x"></span>
+                        <p>Lleva una botella de agua y snacks para el camino</p>
+                    </div>
+                </div>
+                <div class="col-6 col-sm-4 col-lg-2 card-recomend">
+                    <div class="card-content">
+                        <span class="mb-3 fal fa-sun fa-2x"></span>
+                        <p>Lleva contigo todo el tiempo tu bloqueador solar</p>
+                    </div>
+                </div>
+                <div class="col-6 col-sm-4 col-lg-2 card-recomend">
+                    <div class="card-content">
+                        <span class="mb-3 fas fa-exclamation-triangle fa-2x"></span>
+                        <p>Conoce el reglamento interno</p>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section class="container-fluid col-12 col-md-8" id="sectionRequisitos">
+            <h2>Requisitos</h2>
+            <ul>
+                <li>Un grupo de regiomontanos ha puesto manos a la obra y crearon el primer patronato con la finalidad de desarrollar y fomentar la conservación de la naturaleza que habita en La Huasteca</li>
+                <li>Un grupo de regiomontanos ha puesto manos a la obra y crearon el primer patronato con la finalidad de desarrollar y fomentar la conservación de la naturaleza que habita en La Huasteca</li>
+                <li>Un grupo de regiomontanos ha puesto manos a la obra y crearon el primer patronato con la finalidad de desarrollar y fomentar la conservación de la naturaleza que habita en La Huasteca</li>
+            </ul>
+        </section>
+
+        <section class="container-fluid col-10 d-none d-md-block" id="sectionPrecauciones">
+            <h2>Precauciones y riesgos</h2>
+            <div class="row">
+                <ul class="col-8 ml-5 p-0">
+                    <li>Un grupo de regiomontanos ha puesto manos a la obra y crearon el primer patronato con la finalidad de desarrollar y fomentar la conservación de la naturaleza que habita en La Huasteca</li>
+                    <li>Un grupo de regiomontanos ha puesto manos a la obra y crearon el primer patronato con la finalidad de desarrollar y fomentar la conservación de la naturaleza que habita en La Huasteca</li>
+                    <li>Un grupo de regiomontanos ha puesto manos a la obra y crearon el primer patronato con la finalidad de desarrollar y fomentar la conservación de la naturaleza que habita en La Huasteca</li>
+                </ul>
+                <img class="col-3 py-md-5 pt-xl-0 pb-xl-5 img-fluid" src="img/warning/warning.png" alt="">
+            </div>
+        </section>
+
+        <section class="container-fluid px-0 mb-0" id="sectionGaleria">
+            <h2 class="mx-3 x-md-5 my-0 px-0 px-md-5 pb-3 pb-md-4">Galería de fotos</h2>
+            <div class="row mx-0">
+                <img class="img-fluid col-6 col-md-3 px-0" src="img/galeria1.PNG" alt="">
+                <img class="img-fluid col-6 col-md-3 px-0" src="img/galeria2.PNG" alt="">
+                <img class="img-fluid col-6 col-md-3 px-0" src="img/galeria3.PNG" alt="">
+                <img class="img-fluid col-6 col-md-3 px-0" src="img/galeria4.PNG" alt="">
+                <img class="img-fluid col-6 col-md-3 px-0" src="img/galeria5.PNG" alt="">
+                <img class="img-fluid col-6 col-md-3 px-0" src="img/galeria6.PNG" alt="">
+                <img class="img-fluid col-6 col-md-3 px-0 d-none d-md-block" src="img/galeria7.PNG" alt="">
+                <img class="img-fluid col-6 col-md-3 px-0 d-none d-md-block" src="img/galeria8.PNG" alt="">
+            </div>
+        </section>
+
+        <section class="container-fluid px-0 mt-0" id="sectionRutas">
+            <div class="row">
+                <h2 class="mx-5 mb-0 mt-4 px-5 pb-4 pt-5 d-none d-sm-block">Route title goes here</h2>
+            </div>
+
+            <div class="row">
+                <div class="col-12 px-0 d-block d-sm-none" id="encabezadoRutas">
+                    <h2 class="ml-4 pt-4">Rutas</h2>
+                    <p class="text-center my-3">
+                        <button class="btn bg-white col-11" type="button" data-toggle="collapse" data-target="#listaRutas" aria-expanded="false" aria-controls="listaRutas">
+                            <p class="d-flex flex-row align-items-center my-0 px-0" id="listaRutasInfo"> 
+                                <span class="mr-auto" id="rutaSelec">
+                                    Ruta 0001
+                                    <script>
+                                        function getRuta(n){document.getElementById("rutaSelec").innerHTML = document.getElementsByClassName("lista-rutas")[n].innerHTML;}
+                                    </script>
+                                </span>
+                                <span class="ml-auto far fa-angle-down fa-2x"></span>
+                            </p>
+                        </button>
+                    </p>
+                    <div class="collapse" id="listaRutas">
+                        <div class="card card-body">
+                            <div class="list-group lista-rutas" role="tablist">
+                                <span class="list-group-item list-group-item-action lista-rutas" onclick="getRuta(1)" id="Ruta0001" href="#Ruta0001" role="tab" aria-controls="Ruta0001">Ruta 0001</span>
+                                <span class="list-group-item list-group-item-action lista-rutas" onclick="getRuta(2)" id="Ruta0002" href="#Ruta0002" role="tab" aria-controls="Ruta0002">Ruta 0002</span>
+                                <span class="list-group-item list-group-item-action lista-rutas" onclick="getRuta(3)" id="Ruta0003" href="#Ruta0003" role="tab" aria-controls="Ruta0003">Ruta 0003</span>
+                                <span class="list-group-item list-group-item-action lista-rutas" onclick="getRuta(4)" id="Ruta0004" href="#Ruta0004" role="tab" aria-controls="Ruta0004">Ruta 0004</span>
+                                <span class="list-group-item list-group-item-action lista-rutas" onclick="getRuta(5)" id="Ruta0005" href="#Ruta0005" role="tab" aria-controls="Ruta0005">Ruta 0005</span>
+                                <span class="list-group-item list-group-item-action lista-rutas" onclick="getRuta(6)" id="Ruta0006" href="#Ruta0006" role="tab" aria-controls="Ruta0006">Ruta 0006</span>
+                                <span class="list-group-item list-group-item-action lista-rutas" onclick="getRuta(7)" id="Ruta0007" href="#Ruta0007" role="tab" aria-controls="Ruta0007">Ruta 0007</span>
+                                <span class="list-group-item list-group-item-action lista-rutas" onclick="getRuta(8)" id="Ruta0008" href="#Ruta0008" role="tab" aria-controls="Ruta0008">Ruta 0008</span>
+                            </div>
+                        </div>
+                    </div>
+                    <a class="d-block text-right float-right col-8 mx-1 pb-3" id="listaRutasDetalles">VER DETALLE DE LA RUTA</a>
+                </div>
+
+                <div class="col-3 px-0 d-none d-sm-block">
+                    <div class="list-group lista-rutas" role="tablist">
+                        <div class="list-group-item" id="encabezadoRutas">
+                            <span>Rutas</span>
+                        </div>
+                        <span class="list-group-item list-group-item-action" id="RRuta0001" href="#RRuta0001" role="tab" aria-controls="RRuta0001">Ruta 0001</span>
+                        <span class="list-group-item list-group-item-action" id="RRuta0002" href="#RRuta0002" role="tab" aria-controls="RRuta0002">Ruta 0002</span>
+                        <span class="list-group-item list-group-item-action" id="RRuta0003" href="#RRuta0003" role="tab" aria-controls="RRuta0003">Ruta 0003</span>
+                        <span class="list-group-item list-group-item-action" id="RRuta0004" href="#RRuta0004" role="tab" aria-controls="RRuta0004">Ruta 0004</span>
+                        <span class="list-group-item list-group-item-action" id="RRuta0005" href="#RRuta0005" role="tab" aria-controls="RRuta0005">Ruta 0005</span>
+                        <span class="list-group-item list-group-item-action" id="RRuta0006" href="#RRuta0006" role="tab" aria-controls="RRuta0006">Ruta 0006</span>
+                        <span class="list-group-item list-group-item-action" id="RRuta0007" href="#RRuta0007" role="tab" aria-controls="RRuta0007">Ruta 0007</span>
+                        <span class="list-group-item list-group-item-action" id="RRuta0008" href="#RRuta0008" role="tab" aria-controls="RRuta0008">Ruta 0008</span>
+                    </div>
+                </div>
+                <img class="img-fluid col-12 col-sm-9 px-0" src="img/mapaRutas.PNG" alt="">
+            </div>
+
+            <div class="row">
+                <div class="col-12 d-block d-md-none px-0">
+                    <div id="headerAguiluchos">
+                        <p id="tituloAguiluchos">Nido de Aguiluchos</p>
+                        <p id="texTituloAguiluchos">Duración: 7-8 horas</p>
+                    </div>
+                    <div id="textoAguiluchos">
+                        <p>El nido de los aguiluchos te dejará sin aliento. Para llegar a la cima de esta emocionante aventura, tendrás que caminar entre piedras y senderos y realizar escalada sencilla, ¡pero valdrá la pena! Llegando a la cúspide podrás
+                            contemplar el panorama y tomar increíbles fotos</p>
+                    </div>
+                    <div id="footerAguiluchos">
+                        <p> <a href="#">DETALLE&nbsp;&nbsp;<span class="fal fa-arrow-right"></span></a> </p>
+                    </div>
+                </div>
+            </div>
+
+        </section>
+
+        <section class="container-fluid col-12 col-md-10 clearfix" id="sectionTuExperiencia">
+            <h2 class="pb-4">Tu experiencia en el parque</h2>
+            <form class="d-inline-block col-12 col-md-6 px-0 pr-md-5 mb-4">
+                <div class="form-group">
+                    <label for="exampleInputEmail1"><b>Nombre*</b></label>
+                    <input type="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp" placeholder="Ej. Alberto García">
+                </div>
+                <div class="form-group">
+                    <label for="exampleInputPassword1"><b>Email*</b></label>
+                    <input type="password" class="form-control" id="exampleInputPassword1" placeholder="Ej. alberto.garcia@email.com">
+                </div>
+                <div class="form-group">
+                    <label for="exampleFormControlTextarea1"><b>Comentario*</b> (Máximo 560 caracteres)</label>
+                    <textarea class="form-control" id="exampleFormControlTextarea1" rows="3" placeholder="Escribe tu comentario aquí"></textarea>
+                </div>
+                <button type="submit" class="btn btn-secondary col-12 col-md-7 mb-3">ENVIAR COMENTARIO</button>
+            </form>
+
+            <div class="d-inline-block col-12 col-md-6 pl-4 border overflow-auto float-md-right" data-spy="scroll" style="height: 500px">
+                <div class="comentario">
+                    <p>
+                        <span class="nombre-comentario">Jorge Hernández</span>
+                        <span class="fecha-comentario">· 20 de Ene. 2020</span>
+                    </p>
+                    <p class="texto-comentario">Et quidem exercitus quid ex eo est consecutus? laudem et molestiae non intellegamus. Laudem et dolore magnam aliquam causam non recusandae itaque negat opus esse admonere. Tum dicere exorsus est consecutus? laudem et accurate disserendum
+                        et impetus quo minus.</p>
+                    <hr>
+                </div>
+
+                <div class="comentario">
+                    <p>
+                        <span class="nombre-comentario">Julia Rodriguez</span>
+                        <span class="fecha-comentario">· 19 de Ene. 2020</span>
+                    </p>
+                    <p class="texto-comentario">Sed ut summo bono, dolorem ipsum, quia non emolumento aliquo, sed quia voluptas. Torquatos nostros? quos dolores suscipianturs</p>
+                    <hr>
+                </div>
+
+                <div class="comentario">
+                    <p>
+                        <span class="nombre-comentario">Jorge Hernández</span>
+                        <span class="fecha-comentario">· 20 de Ene. 2020</span>
+                    </p>
+                    <p class="texto-comentario">Et quidem exercitus quid ex eo est consecutus? laudem et molestiae non intellegamus. Laudem et dolore magnam aliquam causam non recusandae itaque negat opus esse admonere. Tum dicere exorsus est consecutus? laudem et accurate disserendum
+                        et impetus quo minus.</p>
+                    <hr>
+                </div>
+
+                <div class="comentario">
+                    <p>
+                        <span class="nombre-comentario">Jorge Hernández</span>
+                        <span class="fecha-comentario">· 20 de Ene. 2020</span>
+                    </p>
+                    <p class="texto-comentario">Et quidem exercitus quid ex eo est consecutus? laudem et molestiae non intellegamus. Laudem et dolore magnam aliquam causam non recusandae itaque negat opus esse admonere. Tum dicere exorsus est consecutus? laudem et accurate disserendum
+                        et impetus quo minus.</p>
+                </div>
+            </div>
+        </section>
+
+
+
+        <section class="container-fluid col-12 col-md-10 pb-5 justify-content-center" id="sectionOtrasActiv">
+            <h2>Otras actividades</h2>
+
+            <div class="card bg-white text-white col-12 col-sm-6 col-md-3 float-left">
+                <img class="card-img" src="img/huastESPARCIMIENTO.PNG" alt="ACTIVIDADES RECREATIVAS">
+                <div class="card-img-overlay">
+                    <span class="card-title">ESPARCIMIENTO</span>
+                    <p class="card-text"> <span class="fal fa-users fa-4x"></span> </p>
+                </div>
+            </div>
+            <div class="card bg-white text-white col-12 col-sm-6 col-md-3 float-left">
+                <img class="card-img" src="img/huastCICLISMO.PNG" alt="PRACTICAR CICLISMO">
+                <div class="card-img-overlay">
+                    <span class="card-title ">CICLISMO</span>
+                    <p class="card-text"> <span class="fal fa-bicycle fa-4x"></span> </p>
+                </div>
+            </div>
+            <div class="card bg-white text-white col-12 col-sm-6 col-md-3 float-left">
+                <img class="card-img" src="img/huastCAMPING.PNG" alt="PRACTICAR ESCALADA">
+                <div class="card-img-overlay">
+                    <span class="card-title ">CAMPING</span>
+                    <p class="card-text"> <span class="fal fa-campground fa-4x"></span> </p>
+                </div>
+            </div>
+            <div class="card bg-white text-white col-12 col-sm-6 col-md-3">
+                <img class="card-img" src="img/huastRAPEL.PNG" alt="PRACTICAR ESCALADA">
+                <div class="card-img-overlay">
+                    <span class="card-title ">RAPEL</span>
+                    <p class="card-text"> <span class="fal fa-mountains fa-4x"></span> </p>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <!-- Pie de la página -->
+    <footer class="container col-12" id="footerHome">
+        <div class="row">
+            <div class="col-12 col-md-3 my-3 text-center">
+                <img src="img/logo-patronato/logo-patronato.png" alt="Logo patronato del parque Huasteca">
+            </div>
+            <div class="col-2 d-none d-md-block">
+                <ul>
+                    <li>EL PARQUE</li>
+                    <li>HISTORIA</li>
+                    <li>PATRIMONIO</li>
+                    <li>FLORA Y FAUNA</li>
+                    <li>EL PATRONATO</li>
+                    <li>SÉ VOLUNTARIO</li>
+                    <li>GALERÍA</li>
+                </ul>
+            </div>
+            <div class="col-2 d-none d-md-block">
+                <ul>
+                    <li>¿QUÉ HACER?</li>
+                    <li>ESCALADA</li>
+                    <li>CICLISMO</li>
+                    <li>SENDERISMO</li>
+                    <li>RAPEL</li>
+                </ul>
+            </div>
+            <div class="col-2 d-none d-md-block">
+                <ul>
+                    <li>VISÍTANOS</li>
+                    <li>EVENTOS</li>
+                    <li>TOURS RECOMENDADOS</li>
+                    <li>HORARIO, LUZ Y CLIMA</li>
+                    <li>¿CÓMO LLEGAR?</li>
+                    <li>MAPA</li>
+                    <li>VISITAS ESCOLARES</li>
+                    <li>PREGUNTAS FRECUENTES</li>
+                    <li>REGLAS Y CUIDADO DEL PARQUE</li>
+                </ul>
+            </div>
+            <div class="col-2 d-none d-md-block">
+                <ul>
+                    <li>CONTACTO</li>
+                    <li>ATENCIÓN MÉDICA</li>
+                    <li>CONTÁCTANOS</li>
+                </ul>
+            </div>
+        </div>
+
+        <div class="row">
+            <div class="col-12 col-md-8 text-center">
+                <span class="fab fa-facebook-square fa-2x"></span>
+                <span class="fab fa-twitter fa-2x"></span>
+                <span class="fab fa-instagram fa-2x"></span>
+                <span class="fab fa-youtube fa-2x"></span>
+                <span>&copy; La Huasteca, 2020. Todos los derechos reservados</span>
+            </div>
+        </div>
+    </footer>
+</body>
+
+</html>
