@@ -24,6 +24,10 @@
   <div>
     <a href="https://gamalielleon.github.io/web-design/Escalada/index.html" target="_blank" style="text-decoration:none">Escalada (web page layout)</a>
   </div>
+    
+  <div>
+      <a href="https://gamalielleon.github.io/app-Rick-Morty/home" target="_blank" style="text-decoration:none">Rick&Morty web page (Angular project)</a>
+  </div>
 </body>
   
 </html>
