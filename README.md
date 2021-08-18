@@ -14,7 +14,7 @@
   </header>
   
   <div>
-    <h3><i>In the following links you can find some of my personal projects</i></h3>
+    <h3><i>The following links show some of my personal projects</i></h3>
   </div>
   
   <div>
