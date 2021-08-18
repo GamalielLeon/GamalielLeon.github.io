@@ -8,7 +8,7 @@
 
 <body>
   <header>
-    <h1>Gamaliel Entrambasaguas León (Mechatronics Engineer)</h1>
+    <h1>Gamaliel Entrambasaguas León</h1>
     <h2><b>Jr. Software Developer</b></h2>
     <p> </p>
   </header>
@@ -19,8 +19,8 @@
   
   <div>
     <a href="https://gamalielleon.github.io/Web-Design/LaHuasteca/index.html" target="_blank" style="text-decoration:none">La Huasteca (web page layout)</a>
-      <code><a href="https://github.com/GamalielLeon/Web-Design/tree/main/LaHuasteca" target="_blank" style="text-decoration:none">[Github repo]</a>
-  </div></code>
+    <code><a href="https://github.com/GamalielLeon/Web-Design/tree/main/LaHuasteca" target="_blank" style="text-decoration:none">[Github repo]</a></code>
+  </div>
 
   <div>
     <a href="https://gamalielleon.github.io/Web-Design/Escalada/index.html" target="_blank" style="text-decoration:none">Escalada (web page layout)</a>
