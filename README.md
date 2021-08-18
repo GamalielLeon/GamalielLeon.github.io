@@ -10,7 +10,7 @@
   <header>
     <h1>gamalielLeon.github.io</h1>
     <h2>PERSONAL PROJECTS</h2>
-    </hr>
+    </br>
   </header>
   
   <div>
