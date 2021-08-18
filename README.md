@@ -18,11 +18,11 @@
   </div>
   
   <div>
-    <a href="https://gamalielleon.github.io/gamalielLeon-web-design/LaHuasteca/index.html" target="_blank" style="text-decoration:none">La Huasteca (web page layout)</a>
+    <a href="https://gamalielleon.github.io/web-design/LaHuasteca/index.html" target="_blank" style="text-decoration:none">La Huasteca (web page layout)</a>
   </div>
 
   <div>
-    <a href="https://gamalielleon.github.io/gamalielLeon-web-design/Escalada/index.html" target="_blank" style="text-decoration:none">Escalada (web page layout)</a>
+    <a href="https://gamalielleon.github.io/web-design/Escalada/index.html" target="_blank" style="text-decoration:none">Escalada (web page layout)</a>
   </div>
 </body>
   
