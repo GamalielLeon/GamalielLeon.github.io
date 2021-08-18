@@ -8,8 +8,8 @@
 
 <body>
   <header>
-    <h1>gamalielLeon.github.io</h1>
-    <h2>PERSONAL PROJECTS</h2>
+    <h1>Gamaliel Entrambasaguas León</h1>
+    <h2><b>Software Developer</b></h2>
     <p> </p>
   </header>
   
@@ -18,15 +18,19 @@
   </div>
   
   <div>
-    <a href="https://gamalielleon.github.io/web-design/LaHuasteca/index.html" target="_blank" style="text-decoration:none">La Huasteca (web page layout)</a>
+    <a href="https://gamalielleon.github.io/Web-Design/LaHuasteca/index.html" target="_blank" style="text-decoration:none">La Huasteca (web page layout)</a>
   </div>
 
   <div>
-    <a href="https://gamalielleon.github.io/web-design/Escalada/index.html" target="_blank" style="text-decoration:none">Escalada (web page layout)</a>
+    <a href="https://gamalielleon.github.io/Web-Design/Escalada/index.html" target="_blank" style="text-decoration:none">Escalada (web page layout)</a>
   </div>
     
   <div>
       <a href="https://gamalielleon.github.io/app-Rick-Morty/home" target="_blank" style="text-decoration:none">Rick&Morty web page (Angular project)</a>
+  </div>
+    
+  <div>
+      <a href="https://gamalielleon.github.io/login-crud/main" target="_blank" style="text-decoration:none">Login page (Angular project)</a>
   </div>
 </body>
   
