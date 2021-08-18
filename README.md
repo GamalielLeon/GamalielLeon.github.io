@@ -22,7 +22,7 @@
   </div>
 
   <div>
-    <a href="https://gamalielleon.github.io/Escalada/escalada.html" target="_blank" style="text-decoration:none">Escalada (web page layout)</a>
+    <a href="https://gamalielleon.github.io/Escalada/index.html" target="_blank" style="text-decoration:none">Escalada (web page layout)</a>
   </div>
 </body>
   
