@@ -19,12 +19,12 @@
   
   <div>
     <a href="https://gamalielleon.github.io/Web-Design/LaHuasteca/index.html" target="_blank" style="text-decoration:none">La Huasteca (web page layout)</a>
-      <code><a href="https://github.com/GamalielLeon/app-Rick-Morty" target="_blank" style="text-decoration:none">[Github repo]</a>
+      <code><a href="https://github.com/GamalielLeon/Web-Design/tree/main/LaHuasteca" target="_blank" style="text-decoration:none">[Github repo]</a>
   </div></code>
 
   <div>
     <a href="https://gamalielleon.github.io/Web-Design/Escalada/index.html" target="_blank" style="text-decoration:none">Escalada (web page layout)</a>
-    <code><a href="https://github.com/GamalielLeon/app-Rick-Morty" target="_blank" style="text-decoration:none;">[Github repo]</a></code>
+    <code><a href="https://github.com/GamalielLeon/Web-Design/tree/main/Escalada" target="_blank" style="text-decoration:none;">[Github repo]</a></code>
   </div>
     
   <div>
