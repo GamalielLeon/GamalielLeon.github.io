@@ -6,12 +6,11 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Personal Projects</title>
 </head>
 
 <body>
   <header>
-    <h1># GamalielLeon.github.io</h1>
+    <h1>gamalielLeon.github.io</h1>
     <h2>PERSONAL PROJECTS</h2>
   </header>
   
@@ -20,11 +19,11 @@
   </div>
   
   <div>
-    <a href="https://gamalielleon.github.io/LaHuasteca/index.html" target="_blank">La Huasteca (web page layout)</a>
+    <a href="https://gamalielleon.github.io/LaHuasteca/index.html" target="_blank" style="text-decoration:none">La Huasteca (web page layout)</a>
   </div>
 
   <div>
-    <a href="https://gamalielleon.github.io/Escalada/escalada.html" target="_blank">Escalada (web page layout)</a>
+    <a href="https://gamalielleon.github.io/Escalada/escalada.html" target="_blank" style="text-decoration:none">Escalada (web page layout)</a>
   </div>
 </body>
   
