@@ -9,7 +9,7 @@
 <body>
   <header>
     <h1>Gamaliel Entrambasaguas León</h1>
-    <h2><b>Jr. Software Developer</b></h2>
+    <h2><b>Software Developer</b></h2>
     <p> </p>
   </header>
   
